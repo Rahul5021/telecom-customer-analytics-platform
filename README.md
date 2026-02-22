@@ -82,6 +82,6 @@ pip install -r requirements.txt
 ```
 3. **Run the EDA Notebook:**
 ```bash
-Open EDA_Notebook.ipynb
+Open 01-eda.ipynb
 ```
 </details>
