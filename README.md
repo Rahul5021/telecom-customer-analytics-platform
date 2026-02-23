@@ -46,7 +46,7 @@ Build an end-to-end data science solution that:
 - **📍 Geographic Hotspots:** Texas (TX) and New Jersey (NJ) identified as the highest-risk states with churn rates near 25-30%.
 - **📞 Usage Correlation:** High **Total Day Minutes** & **Customer Service Calls** positively correlated with churn (0.20), indicating service frustration or bill shock  
 
-![Top 10 States by Churn](gallery\state_churn.png)
+![Top 10 States by Churn](./gallery/state_churn.png)
 
 </details>
 
