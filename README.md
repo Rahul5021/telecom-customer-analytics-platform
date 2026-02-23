@@ -7,7 +7,7 @@
 |------|--------|
 | Environment & Dataset | ✅ Initialized & loaded (2,666 observations) |
 | Data Cleaning | ✅ Resolved categorical mapping & case-sensitivity issues |
-| Exploratory Data Analysis | 🔄 Phase 1 complete (Key drivers identified) |
+| Exploratory Data Analysis | ✅ Phase 1 complete (Hotspots & Drivers Identified) |
 | Next Milestone | 📅 Feature engineering & Predictive Modeling |
 
 ---
@@ -43,14 +43,17 @@ Build an end-to-end data science solution that:
 
 **🚨 Early EDA Findings:**  
 - **🌐 International Plan Paradox:** Users with an International Plan churn at **43.7%**, vs. **11.3%** without  
+- **📍 Geographic Hotspots:** Texas (TX) and New Jersey (NJ) identified as the highest-risk states with churn rates near 25-30%.
 - **📞 Usage Correlation:** High **Total Day Minutes** & **Customer Service Calls** positively correlated with churn (0.20), indicating service frustration or bill shock  
+
+![Top 10 States by Churn](gallery\state_churn.png)
 
 </details>
 
 <details>
 <summary>4️⃣ Planned Architecture</summary>
 
-1. **Data Preprocessing:** Handle NaNs, encode categorical variables, scale features  
+1. **Data Preprocessing:** Handle NaNs, Label Encoding for high-cardinality features (States), and Binary Mapping for Plans. 
 2. **EDA:** Statistical profiling & correlation heatmaps  
 3. **Machine Learning Pipeline:**  
    - Model training (Random Forest, XGBoost)  
